@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To begin with the development phase, we first need to setup docker, so that we can easily manage the application in-sync with the repository.
+To setup Docker :
+  1) Download and Install Docker as per your system requirement.
+  2) Now navigate to the project root directory and code <sub> docker-compose up</sub>.
+  3) Now run http://localhost:3000/api/ping to test out the back-end.
+
